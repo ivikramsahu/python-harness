@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ivikramsahu_python_harness_1729406344857-push-trigger-input-set
+  identifier: Build_ivikramsahu_python_harness_1729406344857pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ivikramsahu_python_harness_1729406344857
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
